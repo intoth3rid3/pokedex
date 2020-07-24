@@ -6,10 +6,10 @@ const Search = () =>{
     const [pokeId, setPokeId] = useState(1); //hook
 
     // console.log('state of pokeId: ', pokeId);
+    // la search aggiunge una nuova card
 
     return(
-        <div className="search">   
-            <h1>{pokeId}</h1>       
+        <div className="search"> 
             <form>
                 <label htmlFor="pokeId">
                     Type here: 
