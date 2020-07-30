@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Search from './search';
-import CardList from './cardList';
+import CardListRandom from './cardListRandom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Row, Col} from 'react-bootstrap';
 
@@ -23,7 +23,7 @@ function App() {
           <Search/>        
       </Container>
 
-      <CardList />
+      <CardListRandom />
       
     
     </div>
