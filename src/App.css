@@ -40,28 +40,35 @@
 body {
   font-size: 2em;
   padding: 50px auto;
-  background-color:#282c34;
-  color:#eee;
+  background-color: #282c34;
+  color: #eee;
 }
 
-.inputId{
-  min-height:2rem;
+.inputId {
+  min-height: 2rem;
   font-size: 1em;
 }
 
-button{
+button {
   padding: 5px;
   vertical-align: middle;
   font-weight: normal;
   text-transform: uppercase;
 }
 
-.myCardContainer{
+.myCardContainer {
   display: inline-flex;
   flex-direction: row;
   width: 15rem;
 }
 
-.myCard{
-  padding:1.33em;
+.myCard {
+  padding: 1.33em;
+}
+
+.lorem {
+  width: 18rem;
+  height: auto;
+  padding: 3rem;
+  margin: 1rem;
 }

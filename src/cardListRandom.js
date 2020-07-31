@@ -12,7 +12,7 @@ export default class CardList extends React.Component {
     let offSet = 0;
     let pokemon = [];
     while (i <= 10) {
-      offSet = Math.floor(Math.random() * (964 - 1) + 1);
+      offSet = Math.floor(Math.random() * (200 - 1) + 1);
       let apiURL = `https://pokeapi.co/api/v2/pokemon?limit=1&offset=${offSet}`;
       const call = await axios.get(apiURL);
       pokemon.push(...call.data.results);
